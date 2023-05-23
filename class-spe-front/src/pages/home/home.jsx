@@ -1,4 +1,3 @@
-import { Header } from '../../components/Header/header';
 import { Card } from '../../components/Card/card';
 import './style.sass'
 import { useEffect, useState } from 'react';
@@ -22,7 +21,6 @@ export function Home() {
   }, [])
   return (
     <>
-      <Header />
       <div className="container-home">
 
         {
