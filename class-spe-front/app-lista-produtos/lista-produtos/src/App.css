@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.screen {
+    width: 1920px;
+    height: 1080px;
+}
+
+.header {
+    height: 98px;
+    width: 1920px;
+    background-color: #512DA8;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.title {
+    font-size: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.div-product {
+    height: 100%;
+    width: 100%;
+    margin-top: 140px;
+    margin-bottom: 60px;
+  }
+
+.product {
+    height: 151px;
+    width: 411px; 
+    border:solid 1px;
+    border-radius:8px;
+    border-color: #C3C3C3;  
+    column-count: 2;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+    margin-bottom: 50px;
+}
+
+.product-image {
+    width: 169px;
+    height: 151px;
+    float: left;
+    object-fit: fill;
+}
+
+.product-title {
+    font-size: 24px;
+    margin-bottom: -15px;
+}
+
+.product-brand{
+    font-size: 12px;
+    color: #F3BD30;
+    font-weight: bold;
+    margin-bottom: -30px;
+}
+
+.product-price {
+    font-size: 20px;
+    font-weight: bold;
+}
